@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: 'neue';
+  src: url('/NeueMachina-Regular.otf') ;
+ 
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  font-family: 'neue';
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
